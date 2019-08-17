@@ -1,0 +1,29 @@
+body{
+    background-color: gray;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 0 30% ;
+}
+
+.container *{
+    margin: 5% 0;
+}
+.container > *:hover{
+    border-style: solid;
+    border-color: rgb(200, 0, 0);
+}
+.socialmedia > a > img:hover{
+    border-style: solid;
+    border-color: rgb(0, 200, 0);
+
+}
+#logo{
+    margin:0 35%;
+}
+.socialmedia *{
+    width : 35px;
+    margin: 0 10px;
+}
